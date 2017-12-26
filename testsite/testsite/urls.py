@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url, include
+from rabbits_rest.views import RabbitViewSet
+
 
 urlpatterns = [
+    url('^', include('rabbits_rest.urls')),
     path('admin/', admin.site.urls),
 ]

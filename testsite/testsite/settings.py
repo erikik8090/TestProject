@@ -25,18 +25,20 @@ SECRET_KEY = 't4!!gja!x7p*gad-81_m7%^h)7%(7^e$3do&qkqj-jl0@$nk-7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.104']
+ALLOWED_HOSTS = ['192.168.1.104', 'localhost']  # Temp IP
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'rabbits_rest.apps.RabbitsRestConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -105,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Jerusalem'
 
 USE_I18N = True
 
