@@ -1,6 +1,8 @@
 Tasks:
-  ☐ Add tests to basic site
-  ☐ Add filters
-  ☐ Add tests to filters
-  ☐ Add validators to colors and rabbit breeds
-  ☐ Add tests to the validators 
+  ✔ Add tests to basic site @done(2017-12-29 01:06) @project(Tasks)
+  ✔ Add filters @done(2017-12-30 10:56) @project(Tasks)
+  ✔ Add tests to filters @done(2017-12-30 11:23) @project(Tasks)
+  ✔ Add validators to colors and rabbit breeds @done(2017-12-30 21:01) @project(Tasks)
+    ✔ Scrape the lists from wikipedia @done(2017-12-30 13:12) @project(Tasks / ☐ Add validators to colors and rabbit breeds)
+    ✔ Add the validation @done(2017-12-30 21:01) @project(Tasks / ☐ Add validators to colors and rabbit breeds)
+  ☐ Add tests to the validators
